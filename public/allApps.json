@@ -1,0 +1,326 @@
+[
+  {
+    "image": "https://picsum.photos/seed/spotify/200",
+    "title": "Melodify",
+    "companyName": "SoundWave Inc.",
+    "id": 1,
+    "description": "Stream millions of songs, podcasts, and playlists. Discover new music tailored to your taste with smart recommendations.",
+    "size": 48,
+    "reviews": 128450,
+    "ratingAvg": 4.7,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 5400 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 91550 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/fitness/200",
+    "title": "FitTrack Pro",
+    "companyName": "HealthPlus Labs",
+    "id": 2,
+    "description": "Track workouts, monitor calories, and achieve your fitness goals with personalized training plans and real-time analytics.",
+    "size": 62,
+    "reviews": 74320,
+    "ratingAvg": 4.5,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 980 },
+      { "name": "2 star", "count": 1750 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 44390 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/finance/200",
+    "title": "WalletWise",
+    "companyName": "FinTech Solutions",
+    "id": 3,
+    "description": "Manage your budget, track expenses, and grow your savings with intelligent financial insights and spending breakdowns.",
+    "size": 35,
+    "reviews": 52100,
+    "ratingAvg": 4.3,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 15600 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/recipe/200",
+    "title": "ChefMate",
+    "companyName": "Culinary Digital Co.",
+    "id": 4,
+    "description": "Discover thousands of recipes, plan weekly meals, and generate smart grocery lists based on what's in your fridge.",
+    "size": 54,
+    "reviews": 38900,
+    "ratingAvg": 4.6,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 11000 },
+      { "name": "5 star", "count": 22350 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/travel/200",
+    "title": "WanderMap",
+    "companyName": "GlobeHopper Ltd.",
+    "id": 5,
+    "description": "Plan trips, explore destinations, and get offline maps with curated travel guides and real-time flight tracking.",
+    "size": 89,
+    "reviews": 61700,
+    "ratingAvg": 4.4,
+    "downloads": 2900000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 8100 },
+      { "name": "4 star", "count": 18500 },
+      { "name": "5 star", "count": 32400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/meditation/200",
+    "title": "ZenSpace",
+    "companyName": "MindfulTech",
+    "id": 6,
+    "description": "Reduce stress and improve sleep with guided meditations, breathing exercises, and daily mindfulness reminders.",
+    "size": 41,
+    "reviews": 47500,
+    "ratingAvg": 4.8,
+    "downloads": 3600000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 12500 },
+      { "name": "5 star", "count": 31200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/language/200",
+    "title": "LinguaLeap",
+    "companyName": "PolyglotApps",
+    "id": 7,
+    "description": "Learn over 40 languages with bite-sized lessons, AI conversation practice, and gamified progress tracking.",
+    "size": 76,
+    "reviews": 95800,
+    "ratingAvg": 4.6,
+    "downloads": 7100000,
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 9500 },
+      { "name": "4 star", "count": 27000 },
+      { "name": "5 star", "count": 56000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/notes/200",
+    "title": "NoteNest",
+    "companyName": "Productivity Forge",
+    "id": 8,
+    "description": "Organize your thoughts, tasks, and projects in one place. Supports markdown, tags, reminders, and cross-device sync.",
+    "size": 29,
+    "reviews": 33200,
+    "ratingAvg": 4.2,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 5800 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 14000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/photo/200",
+    "title": "SnapEdit",
+    "companyName": "PixelCraft Studios",
+    "id": 9,
+    "description": "Edit photos like a pro with AI-powered filters, background removal, retouching tools, and one-tap enhancements.",
+    "size": 115,
+    "reviews": 142000,
+    "ratingAvg": 4.7,
+    "downloads": 9800000,
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 38000 },
+      { "name": "5 star", "count": 89000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/weather/200",
+    "title": "SkyAlert",
+    "companyName": "MeteoTech",
+    "id": 10,
+    "description": "Get hyper-local weather forecasts, severe weather alerts, and hourly updates with a beautiful, minimal interface.",
+    "size": 22,
+    "reviews": 28400,
+    "ratingAvg": 4.4,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 420 },
+      { "name": "2 star", "count": 850 },
+      { "name": "3 star", "count": 3800 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 14130 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/shopping/200",
+    "title": "DealDash",
+    "companyName": "ShopSmart Corp.",
+    "id": 11,
+    "description": "Compare prices across thousands of stores, track price drops, and get notified when your wishlist items go on sale.",
+    "size": 58,
+    "reviews": 81000,
+    "ratingAvg": 4.3,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3900 },
+      { "name": "3 star", "count": 10000 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 41000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/games/200",
+    "title": "PuzzleRealm",
+    "companyName": "BrainGames Studio",
+    "id": 12,
+    "description": "Challenge your mind with hundreds of logic puzzles, crosswords, and brain teasers. New puzzles added daily.",
+    "size": 67,
+    "reviews": 56300,
+    "ratingAvg": 4.5,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 16000 },
+      { "name": "5 star", "count": 32000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/news/200",
+    "title": "PulseNews",
+    "companyName": "MediaStream Inc.",
+    "id": 13,
+    "description": "Stay informed with AI-curated news from trusted sources. Customize your feed by topic, region, and reading time.",
+    "size": 44,
+    "reviews": 39600,
+    "ratingAvg": 4.1,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 4100 },
+      { "name": "3 star", "count": 7500 },
+      { "name": "4 star", "count": 11200 },
+      { "name": "5 star", "count": 14400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/sleep/200",
+    "title": "DreamCycle",
+    "companyName": "SleepLab Technologies",
+    "id": 14,
+    "description": "Analyze your sleep patterns, set smart alarms, and play soothing soundscapes for deeper, more restful nights.",
+    "size": 38,
+    "reviews": 44700,
+    "ratingAvg": 4.6,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 13500 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/coding/200",
+    "title": "CodePocket",
+    "companyName": "DevTools HQ",
+    "id": 15,
+    "description": "Write, test, and share code snippets on the go. Supports 60+ languages with syntax highlighting and live preview.",
+    "size": 52,
+    "reviews": 27900,
+    "ratingAvg": 4.5,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 380 },
+      { "name": "2 star", "count": 720 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 8800 },
+      { "name": "5 star", "count": 14800 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/video/200",
+    "title": "ClipForge",
+    "companyName": "Reel Creative Labs",
+    "id": 16,
+    "description": "Create stunning short videos with auto-captions, transitions, music sync, and one-tap export for all social platforms.",
+    "size": 134,
+    "reviews": 108000,
+    "ratingAvg": 4.7,
+    "downloads": 8400000,
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 31500 },
+      { "name": "5 star", "count": 64000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/calendar/200",
+    "title": "TimePilot",
+    "companyName": "Orion Productivity",
+    "id": 17,
+    "description": "Smart scheduling app that syncs all your calendars, suggests optimal meeting times, and blocks focus time automatically.",
+    "size": 31,
+    "reviews": 21500,
+    "ratingAvg": 4.3,
+    "downloads": 870000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 6800 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/podcast/200",
+    "title": "EchoCast",
+    "companyName": "AudioVerse Media",
+    "id": 18,
+    "description": "Discover, subscribe, and listen to over 5 million podcasts. Features smart playlists, transcripts, and sleep timer.",
+    "size": 46,
+    "reviews": 63400,
+    "ratingAvg": 4.5,
+    "downloads": 4100000,
+    "ratings": [
+      { "name": "1 star", "count": 850 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 7200 },
+      { "name": "4 star", "count": 19000 },
+      { "name": "5 star", "count": 34650 }
+    ]
+  }
+]

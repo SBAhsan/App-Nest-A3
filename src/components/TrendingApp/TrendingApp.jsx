@@ -1,0 +1,32 @@
+import React from "react";
+import downloadImg from "../../assets/download.png";
+import starImg from "../../assets/star.png";
+
+const TrendingApp = ({ app }) => {
+  const { image, title, downloads, ratingAvg } = app;
+
+  return (
+    <div>
+      <div className="bg-base-100 shadow-sm">
+        <figure className="px-10 pt-10">
+          <img src={image} className="rounded-xl" />
+        </figure>
+        <div className="text-center p-5">
+          <h2 className="card-title pt-2">{title}</h2>
+          <div className="flex justify-between pt-4">
+            <div className="flex items-center gap-2 text-[#00D390] bg-[#F1F5E8] px-2 py-1 rounded-sm">
+              <img src={downloadImg} />
+              <span>{downloads / 1000000}M</span>
+            </div>
+            <div className="flex items-center gap-2 text-[#FF8811] bg-[#FFF0E1] px-2 py-1 rounded-sm">
+              <img src={starImg} />
+              <span>{ratingAvg}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default TrendingApp;
