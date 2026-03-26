@@ -8,7 +8,7 @@ const TrendingApp = ({ app }) => {
   return (
     <div>
       <div className="bg-base-100 shadow-sm">
-        <figure className="px-10 pt-10">
+        <figure className="pt-10 w-fit mx-auto">
           <img src={image} className="rounded-xl" />
         </figure>
         <div className="text-center p-5">

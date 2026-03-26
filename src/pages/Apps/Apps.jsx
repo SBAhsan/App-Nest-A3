@@ -13,11 +13,16 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div>
-        <h4>(132) Apps Found</h4>
-        <input type="text" name="" placeholder={`${searchImg} Search`} />
+      <div className="flex justify-between pt-15 pb-6">
+        <h4 className="text-xl font-bold">({allAppsData.length}) Apps Found</h4>
+        <div className="flex items-center gap-3 border-1 border-gray-300 pl-6 pr-10 py-2 rounded-sm">
+          <div>
+            <img src={searchImg} alt="" />
+          </div>
+          <input type="text" name="" placeholder="Search" />
+        </div>
       </div>
-      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-10">
         {allAppsData.map((singleAppData) => (
           <SingleApp
             key={singleAppData.id}

@@ -322,5 +322,41 @@
       { "name": "4 star", "count": 19000 },
       { "name": "5 star", "count": 34650 }
     ]
+  },
+  {
+    "image": "https://picsum.photos/seed/scanner/200",
+    "title": "ScanVault",
+    "companyName": "DocuTech Solutions",
+    "id": 19,
+    "description": "Scan documents, receipts, and whiteboards instantly. Auto-enhances quality and exports to PDF, Word, or cloud storage.",
+    "size": 43,
+    "reviews": 31200,
+    "ratingAvg": 4.4,
+    "downloads": 1600000,
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 980 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 15700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/habit/200",
+    "title": "HabitFlow",
+    "companyName": "GrowthLoop Apps",
+    "id": 20,
+    "description": "Build lasting habits with streak tracking, daily reminders, progress charts, and science-backed routine templates.",
+    "size": 27,
+    "reviews": 48600,
+    "ratingAvg": 4.6,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 430 },
+      { "name": "2 star", "count": 870 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 14200 },
+      { "name": "5 star", "count": 28000 }
+    ]
   }
 ]
