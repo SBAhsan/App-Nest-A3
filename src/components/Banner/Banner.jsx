@@ -21,8 +21,8 @@ const Banner = () => {
               life simpler, smarter, and more exciting. Our goal is to turn your
               ideas into digital experiences that truly make an impact.
             </p>
-            <button className="btn mx-1"><img className="w-5 h-5 mr-1" src={googleImg} alt="" />Google Play</button>
-            <button className="btn mx-1"><img className="w-5 h-5 mr-1" src={appStoreImg} alt="" />App Store</button>
+            <button className="btn mx-1"><img className="w-5 h-5 mr-1" src={googleImg} alt="" /><a href="https://play.google.com/store/apps">Google Play</a></button>
+            <button className="btn mx-1"><img className="w-5 h-5 mr-1" src={appStoreImg} alt="" /><a href="https://www.apple.com/app-store/">App Store</a></button>
           </div>
           <img className="w-[500px] h-67 mt-4" src={bannerImg} />
         </div>

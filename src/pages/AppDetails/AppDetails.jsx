@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import downloadImg from "../../assets/download.png";
 import starImg from "../../assets/star.png";
@@ -30,8 +30,16 @@ const AppDetails = () => {
     ratings
   } = singleApp;
 
+  const [installed, setInstalled] = useState(false);
+
+  useEffect(() => {
+    const storedIds = JSON.parse(localStorage.getItem("installedApps")) || [];
+    setInstalled(storedIds.includes(appId));
+  }, [appId]);
+
   const handleAppInstallation = (id) => {
     addToStoredDB(id);
+    setInstalled(true);
   };
 
   return (
@@ -66,9 +74,10 @@ const AppDetails = () => {
           <Link to={"/installation"}>
             <button
               onClick={() => handleAppInstallation(id)}
-              className="btn bg-[#00D390] text-white"
+              disabled={installed}
+              className={`btn text-white ${installed ? "bg-gray-400 cursor-not-allowed" : "bg-[#00D390]"}`}
             >
-              Install Now ({size} MB)
+              {installed ? "Installed" : `Install Now (${size} MB)`}
             </button>
           </Link>
         </div>
