@@ -17,8 +17,11 @@ const TrendingApps = () => {
 
   return (
     <div>
-      <h1>I am Trending apps</h1>
-      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+      <div className="text-center">
+        <h1 className="text-3xl font-bold pt-15 pb-4">Trending Apps</h1>
+        <p className="text-gray-400">Explore All Trending Apps on the Market developed by us</p>
+      </div>
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10">
         {trendingApps.map((app) => (
         <TrendingApp key={app.id} app={app}></TrendingApp>
       ))}
