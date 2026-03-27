@@ -8,8 +8,8 @@ const SingleApp = ({ singleAppData }) => {
   return (
     <Link to={`/appDetails/${id}`}>
       <div className="bg-base-100 shadow-sm">
-        <figure className="pt-10 w-fit mx-auto">
-          <img src={image} className="rounded-xl" />
+        <figure className="pt-4 px-4 w-fit mx-auto">
+          <img src={image} className="rounded-xl w-[500px] lg:w-[300px]" />
         </figure>
         <div className="text-center p-5">
           <h2 className="card-title pt-2">{title}</h2>

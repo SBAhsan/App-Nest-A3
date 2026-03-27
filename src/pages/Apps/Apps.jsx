@@ -13,7 +13,7 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
-      <div className="flex justify-between pt-15 pb-6">
+      <div className="flex flex-col-reverse lg:flex-row items-center gap-8 justify-between pt-15 pb-6">
         <h4 className="text-xl font-bold">({allAppsData.length}) Apps Found</h4>
         <div className="flex items-center gap-3 border-1 border-gray-300 pl-6 pr-10 py-2 rounded-sm">
           <div>
