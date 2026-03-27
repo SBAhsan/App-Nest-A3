@@ -22,7 +22,7 @@ const Apps = () => {
           <input type="text" name="" placeholder="Search" />
         </div>
       </div>
-      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 pb-10">
+      <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {allAppsData.map((singleAppData) => (
           <SingleApp
             key={singleAppData.id}

@@ -7,13 +7,13 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to={"/"}>Home</NavLink>
+        <NavLink className={({ isActive }) => isActive && 'font-semibold  bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500 bg-clip-text text-transparent'} to={"/"}>Home</NavLink>
       </li>
       <li>
-        <NavLink to={"/apps"}>Apps</NavLink>
+        <NavLink className={({ isActive }) => isActive && 'font-semibold bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500 bg-clip-text text-transparent'} to={"/apps"}>Apps</NavLink>
       </li>
       <li>
-        <NavLink to={"/installation"}>Installation</NavLink>
+        <NavLink className={({ isActive }) => isActive && 'font-semibold bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500 bg-clip-text text-transparent'} to={"/installation"}>Installation</NavLink>
       </li>
     </>
   );
@@ -60,7 +60,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn text-white bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500">
+          <a href="https://github.com/SBAhsan" className="btn text-white bg-gradient-to-br from-purple-900 via-purple-700 to-purple-500">
             <img src={contributeImg} alt="" />
             <span className="ml-1">Contribute</span>
           </a>

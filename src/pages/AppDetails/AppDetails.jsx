@@ -1,5 +1,5 @@
 import React from "react";
-import { useLoaderData, useParams } from "react-router";
+import { Link, useLoaderData, useParams } from "react-router";
 import downloadImg from "../../assets/download.png";
 import starImg from "../../assets/star.png";
 import reviewImg from "../../assets/review.png";
@@ -54,12 +54,14 @@ const AppDetails = () => {
               <h3 className="text-3xl font-bold">{reviews}</h3>
             </div>
           </div>
-          <button
-            onClick={() => handleAppInstallation(id)}
-            className="btn bg-[#00D390] text-white"
-          >
-            Install Now ({size} MB)
-          </button>
+          <Link to={"/installation"}>
+            <button
+              onClick={() => handleAppInstallation(id)}
+              className="btn bg-[#00D390] text-white"
+            >
+              Install Now ({size} MB)
+            </button>
+          </Link>
         </div>
       </div>
       <div className="pt-5 pb-4 border-b-1 border-gray-300">
@@ -67,7 +69,7 @@ const AppDetails = () => {
       </div>
       <div className="pt-5 pb-4">
         <h1 className="text-xl font-semibold">Description</h1>
-        <p className="mt-5 mb-10">{description}</p>
+        <p className="mt-5">{description}</p>
       </div>
     </div>
   );
