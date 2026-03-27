@@ -4,7 +4,7 @@ import logoImg from "../../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral text-neutral-content px-10 pt-10">
+    <footer className="bg-neutral text-neutral-content px-10 pt-10 mt-15">
       <div className="flex flex-col gap-10 items-center justify-center lg:flex-row lg:justify-between pb-4">
         <aside>
         <Link to={"/"} className="btn btn-ghost text-xl flex items-center">
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
       </nav>
       </div>
-      <p className="text-center pt-5 pb-4 border-t-1">Copyright © 2025 - All right reserved</p>
+      <p className="text-center pt-5 pb-4 border-t-1 border-gray-400">Copyright © 2025 - All right reserved</p>
     </footer>
   );
 };

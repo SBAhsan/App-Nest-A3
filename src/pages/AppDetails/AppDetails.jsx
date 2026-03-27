@@ -4,6 +4,14 @@ import downloadImg from "../../assets/download.png";
 import starImg from "../../assets/star.png";
 import reviewImg from "../../assets/review.png";
 import { addToStoredDB } from "../../Utilities/addToDB";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  ResponsiveContainer,
+} from "recharts";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -19,6 +27,7 @@ const AppDetails = () => {
     reviews,
     ratingAvg,
     downloads,
+    ratings
   } = singleApp;
 
   const handleAppInstallation = (id) => {
@@ -65,7 +74,28 @@ const AppDetails = () => {
         </div>
       </div>
       <div className="pt-5 pb-4 border-b-1 border-gray-300">
-        <h1 className="text-xl font-semibold">Ratings</h1>
+        <h1 className="text-xl font-semibold mb-5">Ratings</h1>
+        <ResponsiveContainer width="100%" height={200}>
+          <BarChart
+            data={[...ratings].reverse()}
+            layout="vertical"
+            margin={{ top: 0, right: 20, left: 10, bottom: 0 }}
+          >
+            <CartesianGrid horizontal={false} stroke="#e0e0e0" />
+            <XAxis
+              type="number"
+              tick={{ fontSize: 12, fill: "#999" }}
+              domain={[0, "auto"]}
+            />
+            <YAxis
+              type="category"
+              dataKey="name"
+              tick={{ fontSize: 12, fill: "#555" }}
+              width={40}
+            />
+            <Bar dataKey="count" fill="#f5a623" radius={[0, 4, 4, 0]} barSize={18} />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
       <div className="pt-5 pb-4">
         <h1 className="text-xl font-semibold">Description</h1>
